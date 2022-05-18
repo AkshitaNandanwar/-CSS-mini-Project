@@ -1,0 +1,72 @@
+/* STYLE.CSS */
+cite:hover{
+    background-color: pink;
+
+}
+#btn1{
+    float: right;
+    border-radius: 50px;
+}
+a:hover{
+color: blue;
+}
+ol:hover{
+    background-color: yellow;
+    color: blueviolet;
+}
+h4:hover{
+    color: blue;
+}
+
+header{
+    color: rgb(9, 78, 9);
+    font-size: 30px;
+}
+section{
+    height: 1000px;
+}
+.Navigation{
+    padding: 20px 10px;
+    width: 100%     
+}
+a#hm{
+    word-spacing:10px;
+    margin: 10px;                                              
+}
+ul:hover{
+background-color: rgb(35, 143, 146);
+}
+a#new{
+    word-spacing:10px;  
+    margin: 10px;
+}
+
+.notes:hover{
+background-color: burlywood;
+}
+
+a#nt{
+    word-spacing:10px; 
+    margin: 10px;
+}
+
+a{
+    color: rgb(20, 19, 19);
+   
+    margin-right: auto;
+    text-decoration: none;
+   
+}
+footer{
+    color: rgb(198, 36, 36);
+   text-align: center;
+   font-size: 25px;
+}
+textarea{
+    border-color: white;
+    
+}
+.Login{
+    float: right;
+    margin-right: 20px;
+}

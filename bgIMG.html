@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background-image</title>
+    <!-- html la css sobt connect karach ase tar title ch khali link tag use karun href attribute madhe
+     cssfile ch nav dyach and follow link var click karach    -->
+    <link rel="stylesheet" href="int1.css">
+    <!-- que 1) apply the backgroud image using external css explanation: here 1st i apply style tag
+        then apply body tag inside body i apply properties required for bg-img -->
+    <style>
+        #upper {
+            background-size: 100% 100%;
+            height: 673px;
+            background-image: url(https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__480.jpg);
+            background-repeat: no-repeat;
+        }
+
+        #middle {
+            background-size: 100% 100%;
+            background-image: url(https://st2.depositphotos.com/1105977/5461/i/600/depositphotos_54615585-stock-photo-old-books-on-wooden-table.jpg);
+            background-repeat: no-repeat;
+        }
+
+        #middle1 {
+            background-size: 100% 100%;
+            height: 500px;
+            background-image: url(https://images.unsplash.com/photo-1637696870554-bf66ff77ec50?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+            background-repeat: no-repeat;
+
+        }
+
+        #below {
+            background-size: 100% 100%;
+            background-image: url(https://images.unsplash.com/photo-1637696870554-bf66ff77ec50?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+            background-repeat: no-repeat;
+
+
+        }
+    </style>
+</head>
+
+
+<body>
+    <div id="upper">
+        <img id="img"
+            src="data:image/png;base64,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"
+            alt="Newton School">
+
+        <header>
+            <div>
+                <cite> <b> Interview Concepts </b> </cite>
+            </div>
+        </header>
+        <h1>Newton School Interview Quetions with Answers</h1>
+
+
+        <div>
+            <h3 style="color: beige;"> 2) Make a table with 2 rows and 2 columns <br> Answer: </h3>
+            <table style="border: 1px solid pink, border-collapse:collapse">
+                <thead>
+                    <th> Roll Number</th>
+                    <th>NAME</th>
+                    <th>COURSE</th>
+                    <th>Batch</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Akshita</td>
+                        <td>Full Stack</td>
+                        <td>December</td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>Niki</td>
+                        <td>Full Stack</td>
+                        <td>January</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div id="middle">
+        <h3 style="color: cornsilk;">
+            <ol>
+                <li>1) Apply the backgroud image using external css <br>
+                    Explanation: here 1st i apply style tag
+                    then apply body tag inside body i apply properties required for bg-img <br>
+
+                    2) Make a table with 2 rows and 2 columns <br> Answer:<br>
+                    3) what is different types of selector in css.<br>
+                    Answer: There are 4 type of CSS selector : <br>
+                    <ul>
+                        <li> selectors (select elements based on name, id, class)</li>
+                        <li>Combinator selectors (select elements based on a specific relationship between them) </li>
+                        <li>Pseudo-class selectors (select elements based on a certain state).</li>
+                        <li>Pseudo-elements selectors (select and style a part of an element).</li>
+                    </ul><br>
+                    <div class="card" style="width: 18rem;">
+                        <img src="data:image/jpeg;base64,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"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </li>
+            </ol>
+        </h3>
+    </div>
+
+    <div id="middle1"></div>
+
+    <div id="below">
+        <h2>About Me</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae inventore eligendi quam libero exercitationem
+            aliquid. Incidunt corrupti nemo veritatis ad nesciunt quidem aliquid, ullam sequi quas. Debitis cum
+            perspiciatis quasi totam sapiente quod libero, mollitia atque minus officia. Eum quae debitis qui dicta
+            reprehenderit in beatae neque sint, earum, illo expedita maiores nihil officiis aliquid sapiente dolor
+            maxime facilis ipsam. Libero neque nemo rem corrupti quo expedita, voluptates aperiam mollitia reprehenderit
+            fugit sapiente debitis autem. Sint tempore odit quibusdam illo! Laudantium eveniet tempora magnam excepturi
+            natus aperiam. Architecto explicabo incidunt, perferendis neque voluptatibus facere. Quae ea possimus
+            obcaecati nesciunt, quo minus, doloribus hic vero commodi, consequuntur non sit debitis. Eius eum asperiores
+            beatae, cupiditate earum ab cumque quae rem officiis ipsam, labore quia provident tempora voluptas repellat
+            laboriosam aut laudantium quas neque? Sed, optio distinctio dolorum quasi voluptatibus perferendis corporis
+            explicabo fugit iure commodi, odio ducimus quisquam esse nesciunt non sint qui labore. Laboriosam, optio.
+            Quam culpa accusantium dolor est vero amet consequatur nam nulla sapiente, rerum ex nostrum? Atque,
+            repudiandae! Consequuntur numquam maxime pariatur, aperiam earum fugiat cumque corporis quibusdam
+            perferendis libero magni debitis! Dolor qui nostrum consequatur pariatur accusantium corrupti voluptate.
+            Porro, eligendi eaque nesciunt amet error ea fugiat corporis aperiam totam minus labore dolor reprehenderit
+            exercitationem quidem iste aliquam maiores, harum omnis voluptates itaque possimus earum voluptatum laborum.
+            Repellat ipsum at dolorum sed nobis omnis officia odio itaque, quia maxime eaque quasi earum architecto
+            animi est reprehenderit a neque voluptate eius? Et dolorem eaque repellendus nemo voluptatem consectetur
+            nesciunt, explicabo vero beatae aspernatur temporibus, iste facere. Nam, recusandae fugiat cum molestiae
+            maiores neque sunt asperiores sequi, repellendus excepturi est molestias id, doloremque harum optio quam
+            blanditiis. Pariatur repellat eaque, praesentium deserunt, culpa molestiae aut autem reprehenderit voluptas
+            fugiat assumenda vero reiciendis! Ad nemo vero ut voluptatem aliquid dolore optio sequi velit in similique
+            vel repudiandae, commodi possimus perferendis. Laboriosam dolorem ipsa quidem ut, est maxime doloribus
+            aliquid fuga corporis quibusdam adipisci minima voluptas a? Accusamus, similique? Adipisci saepe ab ullam
+            facere. Repellat cum hic eius vel commodi laudantium, asperiores pariatur harum sit debitis impedit in natus
+            at autem. Numquam, commodi. Eum atque impedit ipsum quasi debitis veritatis qui reprehenderit quo magni
+            tenetur similique aperiam iste quas nemo in possimus ducimus itaque quod fugit ex enim, placeat harum eaque.
+            Dignissimos, magni. Accusamus unde tempore doloribus dolores accusantium veniam! Corrupti iure aspernatur
+            temporibus error maxime ipsa eligendi soluta deleniti placeat neque expedita minus, perferendis pariatur
+            perspiciatis magni deserunt obcaecati animi quis sunt fuga eos adipisci. Ut animi maiores voluptates error
+            natus earum iste eaque iure voluptatum deleniti nostrum beatae architecto possimus illo, corporis velit
+            minima provident amet facere. Rerum beatae laudantium atque suscipit officia quibusdam temporibus dolorum
+            necessitatibus natus voluptatum fugit mollitia, quisquam vero hic. Totam magnam culpa nisi id eveniet, a hic
+            enim! Eos laudantium labore ex blanditiis inventore, eum nulla sunt doloremque, voluptas, voluptates
+            laboriosam. Amet officia, cupiditate provident quod quidem doloremque sunt esse eos, vero dolorum,
+            voluptatum nostrum nam. Eius consequatur quis asperiores odio quam neque!
+        </p>
+    </div>
+
+
+    <div style="border: 100px solid black; background-color: black;">
+        <div class="container">
+            <div class="sidebar">
+                <span
+                    style="font-family:wfont_6ab06b_80675db0f44c41bc8132d10b8b00a8d9,wf_80675db0f44c41bc8132d10b8,orig_poppins_light;"><span
+                        class="color_11"><a><span class="color_11"><span
+                                    style="font-weight:bold; color: white; font-size:larger;">Interview Portfolio
+                                </span></span></a></span></span>
+                <span class="Navigation" background-color: whitesmoke;">
+                    <img id="NSimg"
+                        src="data:image/png;base64,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"
+                        alt="Newton School SyxAAaAAAAAAAAAECAxESMQQhMnGBBRMiQVFhQpGx0mbol">
+                </span>
+
+            </div><br><br>
+            <div class="main">
+
+        <div style="width:550px ;">
+                    <p class="font_8" style="font-size:16px;"><span style="font-family:open sans,sans-serif;"><span
+                                style="color:#FFFFFF;">Interview Portal is a platform to learn and develop skills that
+                                you need for your best
+                                Tech career.&nbsp;We&nbsp;boost up your skills and prepare you&nbsp;for your dream
+                                job.&nbsp;</span></span>
+                    </p> <br>
+                    <p class="font_8" style="font-size:16px;"><span style="font-family:open sans,sans-serif;"><span
+                                style="color:#FFFFFF;">We are dedicated to build and structure your tech career for the
+                                dream&nbsp;companies worldwide&nbsp;based on your skills, eligibility, preferences and
+                                work hard with you till you get into one of yours.</span></span></p>
+                </div>
+                <div style="position: relative; left: 90%; top: 40%; "> 
+                     <div id="comp-k05jc4gv" aria-disabled="false" class="_2UgQw">
+                         <a style="color: white; text-decoration: none;" data-testid="linkElement" href="https://www.newtonschool.co/about" target="_self" class="_1fbEI"
+                        aria-disabled="false">
+                        <span class="_1Qjd7">About us</span> </a>
+                    </div>
+                    <div id="comp-jzpf2755" aria-disabled="false" class="_2UgQw"><a style="color: white; text-decoration: none;" data-testid="linkElement"
+                        href="https://www.newtonschool.co/pay-after-placement" target="_self" class="_1fbEI"
+                        aria-disabled="false">
+                        <span class="_1Qjd7">Careers</span></a>
+                    </div>
+                    <a style="color: white; text-decoration: none;" data-testid="linkElement" href="https://www.newtonschool.co/contact" target="_self" class="_1fbEI"
+                    aria-disabled="false">
+                    <span class="_1Qjd7">Contact us</span></a><br>
+
+                    <span class="_1Qjd7" style="color:white;">Terms &amp; Conditions</span><br>
+                </div>
+
+               <div><button id="bt"> <a href="index.html">Back</a></button></div> 
+          </div>
+
+                <span style="color:#CCCCCC; font-family: wfont_6ab06b_19732dc99dbb452c97b7e0b3fa9c6f91,wf_19732dc99dbb452c97b7e0b3f,orig_poppins_medium;
+            ;">© 2022 Incanus Technologies Pvt Ltd | All rights reserved.</span>
+            </div>
+
+        </div>
+      
+    </div>
+
+
+</body>
+
+</html>
