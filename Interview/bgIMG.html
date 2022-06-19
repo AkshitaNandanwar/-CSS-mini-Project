@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background-image</title>
+    <!-- html la css sobt connect karach ase tar title ch khali link tag use karun href attribute madhe
+     cssfile ch nav dyach and follow link var click karach    -->
+    <link rel="stylesheet" href="int1.css">
+    <!-- que 1) apply the backgroud image using external css explanation: here 1st i apply style tag
+        then apply body tag inside body i apply properties required for bg-img -->
+    <style>
+        #upper {
+            background-size: 100% 100%;
+            height: 800px;
+            background-image: url(https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__480.jpg);
+            background-repeat: no-repeat;
+        }
+
+        #middle {
+            /* background-size: 100% 100%;
+            background-image: url(https://st2.depositphotos.com/1105977/5461/i/600/depositphotos_54615585-stock-photo-old-books-on-wooden-table.jpg);
+            background-repeat: no-repeat; */
+            color: black;
+        }
+
+        #below {
+            justify-content: center;
+
+        }
+        img {
+              float: left;
+              height: 100%;
+              width: 100%;
+            }
+    </style>
+        <!-- <style>
+           img {
+              float: left;
+              height: 100%;
+              width: 100%;
+            }
+            </style> -->
+</head>
+
+
+<body>
+    <div id="upper">
+        
+        <header>
+            <div>
+                <cite> <b> Interview Concepts </b> </cite>
+            </div>
+        </header>
+        <h1>Newton School Interview Quetions with Answers</h1>
+
+
+        <div>
+            <h3 style="color: beige;"> <caption> Make a table with 2 rows and 2 columns </caption> <br> Answer: </h3>
+            <table style="border: 1px solid pink, border-collapse:collapse">
+                <thead>
+                    <th> Roll Number</th>
+                    <th>NAME</th>
+                    <th>COURSE</th>
+                    <th>Batch</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Akshita</td>
+                        <td>Full Stack</td>
+                        <td>December</td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>Niki</td>
+                        <td>Full Stack</td>
+                        <td>January</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div><br> 
+
+        <h3 style="color: beige;"> <caption> Make a card as shown in image </caption> <br> Answer: </h3>
+        <div class="card" style=" border 2px solid black; width: 10%;">
+           
+            <img src="/imageforIP/akshita.jpg" alt="person">
+        </div> <br>
+        <p style="color: rgba(17, 17, 16, 0.904); float: left; display: position; right:10px; top:100px;">
+            <ol type="1">
+              <li>Apply the backgroud image using external css <br>
+                    Explanation: here 1st i apply style tag
+                    then apply body tag inside body i apply properties required for bg-img <br>
+
+                    2) Make a table with 2 rows and 2 columns <br> Answer:<br>
+                    3) what is different types of selector in css.<br>
+                    Answer: There are 4 type of CSS selector : <br>
+                    <ul>
+                        <li> selectors (select elements based on name, id, class)</li>
+                        <li>Combinator selectors (select elements based on a specific relationship between them) </li>
+                        <li>Pseudo-class selectors (select elements based on a certain state).</li>
+                        <li>Pseudo-elements selectors (select and style a part of an element).</li>
+                    </ul><br>
+                </li>
+            </ol>
+        </p>
+    </div>
+    <!-- <div id="middle">
+        <h3 style="color: rgba(17, 17, 16, 0.904);">
+            <ol>
+                <li>1) Apply the backgroud image using external css <br>
+                    Explanation: here 1st i apply style tag
+                    then apply body tag inside body i apply properties required for bg-img <br>
+
+                    2) Make a table with 2 rows and 2 columns <br> Answer:<br>
+                    3) what is different types of selector in css.<br>
+                    Answer: There are 4 type of CSS selector : <br>
+                    <ul>
+                        <li> selectors (select elements based on name, id, class)</li>
+                        <li>Combinator selectors (select elements based on a specific relationship between them) </li>
+                        <li>Pseudo-class selectors (select elements based on a certain state).</li>
+                        <li>Pseudo-elements selectors (select and style a part of an element).</li>
+                    </ul><br>
+                   <div class="card" style="width: 18rem;">
+                        <img src=""
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </li>
+            </ol>
+        </h3>
+    </div> -->
+
+    <!-- About Me start here -->
+    <div id="middle1">
+        <h2 style="background-color: rgb(120, 120, 167);">About Me</h2><br> <br>
+       
+        <p><img src="https://static.wixstatic.com/media/d30e64_a709d3c9478b463db0dd520da4980b00~mv2.png/v1/fill/w_560,h_638,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/cherry-689.png"
+                alt="" style="width:170px;height:170px;margin-left:15px;">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi
+            lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue
+            eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare
+            eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis
+            dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare
+            turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed
+            dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. A laudantium, doloremque veritatis distinctio vitae quia quis quaerat quod nihil velit quibusdam asperiores molestias explicabo labore aperiam fuga eum facere necessitatibus ducimus quae. Soluta, minima neque, consequatur, nam cupiditate modi hic quia explicabo iure porro perferendis saepe animi dicta recusandae voluptates aut consequuntur ea quas doloremque perspiciatis ab eveniet veritatis! Quisquam fugit repudiandae autem. Qui, iste est? Earum sequi rerum id nulla eveniet doloremque ea, cupiditate aut, enim mollitia nam? Perferendis excepturi ducimus, eos eum nobis veritatis labore dolor magnam sunt quam ipsam earum sequi adipisci laborum in magni unde dicta, maiores necessitatibus! Explicabo nostrum, deserunt est tempora eum qui repellat doloribus. Nam necessitatibus eaque, molestias suscipit, rem ab saepe aspernatur impedit vero delectus possimus, aliquam quaerat inventore dolor exercitationem quis illo vitae repudiandae dolorem commodi officiis doloribus neque ipsa! Eos aperiam neque vitae minus fugit earum a, repudiandae rem ratione voluptate repellat blanditiis accusantium omnis obcaecati numquam mollitia laboriosam velit error vel! Dicta excepturi et aperiam doloremque, adipisci error, cupiditate porro perspiciatis provident nulla alias ratione placeat nesciunt, esse doloribus aliquid! Beatae cumque dolor veniam ratione provident ipsa laudantium nam dicta autem commodi delectus mollitia, iusto alias quasi, officiis rerum accusantium! Voluptate tempore, doloremque numquam quibusdam maiores accusamus placeat debitis molestiae reiciendis itaque esse ab porro incidunt cupiditate quisquam iste libero, voluptatem consectetur cumque? Magni aut numquam eius repudiandae, adipisci reiciendis expedita delectus voluptates dolorum? Assumenda perferendis, repudiandae, laborum natus tempore distinctio earum facilis ex ea pariatur sunt labore culpa nobis ad, cum magnam animi totam obcaecati inventore debitis ab! A, praesentium in corrupti voluptatum fuga, explicabo, tenetur vel voluptas quas dignissimos dolores ad rem commodi amet animi voluptatem qui consectetur voluptate modi optio voluptates. Velit aperiam corrupti vel magni dolore laudantium numquam, non accusantium enim sint eos dolores necessitatibus?</p><br> <br>
+    </div> <!-- About Me end here -->
+
+
+    <div id="below">
+        <span> <img
+                src="https://static.wixstatic.com/media/d30e64_60b4eb860e894b10bca50a2c4a21bab7~mv2.png/v1/crop/x_0,y_0,w_1620,h_1267/fill/w_550,h_430,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Untitled%20design-5.png"
+                alt=""></span>
+        <!-- <span><img id="img2"
+                src="https://static.wixstatic.com/media/d30e64_a709d3c9478b463db0dd520da4980b00~mv2.png/v1/fill/w_560,h_638,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/cherry-689.png"></span> -->
+
+    </div>
+
+
+    <!-- footer start from here -->
+    <div style="border: 100px solid black; background-color: black;">
+        <div class="container">
+            <div class="sidebar">
+                <span
+                    style="font-family:wfont_6ab06b_80675db0f44c41bc8132d10b8b00a8d9,wf_80675db0f44c41bc8132d10b8,orig_poppins_light;"><span
+                        class="color_11"><a><span class="color_11"><span
+                                    style="font-weight:bold; color: white; font-size:larger; font-size:22px;">Interview
+                                    Portfolio
+                                </span></span></a></span></span>
+                <span class=" Navigation; background-color: whitesmoke;">
+                    <img id="NSimg"
+                        src="https://static.wixstatic.com/media/576f44_5e9ea38a9c60410c8a4938510ca4b7f1~mv2.png/v1/fill/w_211,h_211,al_c/576f44_5e9ea38a9c60410c8a4938510ca4b7f1~mv2.png"
+                        alt="Newton School ">
+                </span>
+
+            </div><br><br>
+            <div class="main">
+
+                <!-- paragraph of footer start from here -->
+                <div style="width:550px ;">
+                    <p class="font_8" style="font-size:14px;"><span style="font-family:open sans,sans-serif;"><span
+                                style="color:#FFFFFF;">Interview Portal is a platform to learn and develop skills that
+                                you need for your best
+                                Tech career.&nbsp;We&nbsp;boost up your skills and prepare you&nbsp;for your dream
+                                job.&nbsp;</span></span>
+                    </p> <br>
+                    <p class="font_8" style="font-size:14px;"><span style="font-family:open sans,sans-serif;"><span
+                                style="color:#FFFFFF;">We are dedicated to build and structure your tech career for the
+                                dream&nbsp;companies worldwide&nbsp;based on your skills, eligibility, preferences and
+                                work hard with you till you get into one of yours.</span></span></p>
+                </div>
+                <!-- paragraph of footer end from here -->
+
+                <!-- paragraph of footer left-section started from here -->
+                <div style="position: relative; left: 90%; top: 40%; ">
+                    <div id="comp-k05jc4gv" aria-disabled="false" class="_2UgQw">
+                        <a style="color: white; text-decoration: none;" data-testid="linkElement"
+                            href="https://www.newtonschool.co/about" target="_self" class="_1fbEI"
+                            aria-disabled="false">
+                            <span class="_1Qjd7">About us</span> </a>
+                    </div>
+                    <div id="comp-jzpf2755" aria-disabled="false" class="_2UgQw"><a
+                            style="color: white; text-decoration: none;" data-testid="linkElement"
+                            href="https://www.newtonschool.co/pay-after-placement" target="_self" class="_1fbEI"
+                            aria-disabled="false">
+                            <span class="_1Qjd7">Careers</span></a>
+                    </div>
+                    <a style="color: white; text-decoration: none;" data-testid="linkElement"
+                        href="https://www.newtonschool.co/contact" target="_self" class="_1fbEI" aria-disabled="false">
+                        <span class="_1Qjd7">Contact us</span></a><br>
+
+                    <span class="_1Qjd7" style="color:white;">Terms &amp; Conditions</span><br>
+                </div>
+
+                <div><button id="bt"> <a href="index.html">Back</a></button></div>
+
+            </div>
+            <!-- paragraph of footer leftSection  ended from here -->
+
+            <span style="color:#CCCCCC; font-family: wfont_6ab06b_19732dc99dbb452c97b7e0b3fa9c6f91,wf_19732dc99dbb452c97b7e0b3f,orig_poppins_medium;
+            ;">© 2022 akshita.nandanwar23@gmail Technologies Pvt Ltd | All rights reserved.</span>
+
+        </div>
+
+    </div>
+
+    </div>
+
+
+</body>
+
+</html>

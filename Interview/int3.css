@@ -1,0 +1,57 @@
+#NSimg{
+    width: 15px;
+}
+h3{
+    color: blanchedalmond;
+    justify-content: center;
+    text-align: center;
+}
+section{
+    justify-content: center;
+}
+.sidebar{
+    background-color: red;
+}
+*{margin: 0;
+padding: 0;}
+.main{
+    background-color: yellow;
+}
+.container{
+    display: flex;
+}
+#NSimg{
+    margin-top: 5%;
+}
+
+
+.right{
+    margin-right: 50px;
+    float: right;
+   
+}
+.d-flex{
+    justify-content: end;
+    margin-right: 25px;
+}
+
+.navbar {
+    overflow: hidden;
+
+}
+
+content {
+    padding: 16px;
+  }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* .sticky + .content {
+    padding-top: 60px;
+  }
+   */
+  
