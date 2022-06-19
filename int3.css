@@ -1,5 +1,12 @@
 #NSimg{
     width: 15px;
+    margin-top: 5%;
+   
+}
+
+#navIN{
+    color: black;
+    background-color: beige;
 }
 h3{
     color: blanchedalmond;
@@ -20,9 +27,7 @@ padding: 0;}
 .container{
     display: flex;
 }
-#NSimg{
-    margin-top: 5%;
-}
+
 
 
 .right{
@@ -35,10 +40,10 @@ padding: 0;}
     margin-right: 25px;
 }
 
-.navbar {
+/* .navbar {
     overflow: hidden;
 
-}
+} */
 
 content {
     padding: 16px;
@@ -50,8 +55,10 @@ content {
     width: 100%;
   }
   
-  /* .sticky + .content {
+.sticky + .content {
     padding-top: 60px;
   }
-   */
   
+  .carousel-inner{
+      z-index:1 ;
+  }
